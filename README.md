@@ -13,6 +13,6 @@ This is what this tool is for: This tool increases the process priority of the o
 
 # How does the tool work?
 Easy: You just run the MSI using a Win32 Apps (or MSI LoB). The MSI takes two command line arguments:
-ACCEPTEDDELAY=12 DESIREDPRIORITY=AboveNormal
-ACCEPTEDDELAY: The timeframe during which a sychronization has to be occured before the process priority is increased.
-DESIREDPRIORITY: The new priority of the omadmclient.exe (High, AboveNormal, Normal, BelowNormal, Low).
+- ACCEPTEDDELAY=12 DESIREDPRIORITY=AboveNormal
+- ACCEPTEDDELAY: The timeframe during which a sychronization has to be occured before the process priority is increased.
+- DESIREDPRIORITY: The new priority of the omadmclient.exe (High, AboveNormal, Normal, BelowNormal, Low).
