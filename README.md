@@ -12,7 +12,6 @@ The OMA-DM synchronization process (omadmclient.exe) runs by default with "below
 This is what this tool is for: This tool increases the process priority of the omadmclient.exe if no successfull synchronisation took place within a certain timeframe. It can also be configured to always increase the process priority. With the increase of process priority the omadmclient.exe runs much more reliable and synchronisation is more often successfull.
 
 # How does the tool work?
-Easy: You just run the MSI using a Win32 Apps (or MSI LoB). The MSI takes two command line arguments:
-- ACCEPTEDDELAY=12 DESIREDPRIORITY=AboveNormal
+Easy: You just run the MSI using a Win32 Apps (or MSI LoB). The MSI takes two command line arguments: ACCEPTEDDELAY=12 DESIREDPRIORITY=AboveNormal
 - ACCEPTEDDELAY: The timeframe during which a sychronization has to be occured before the process priority is increased.
 - DESIREDPRIORITY: The new priority of the omadmclient.exe (High, AboveNormal, Normal, BelowNormal, Low).
